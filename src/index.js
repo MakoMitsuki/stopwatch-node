@@ -29,7 +29,6 @@ class Stopwatch extends React.Component {
 
   lap() {
     this.setState({lapTimes: this.state.lapTimes.concat(this.state.timeElapsed)});
-    
   }
 
   reset() {
