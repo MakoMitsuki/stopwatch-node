@@ -73,7 +73,9 @@ class Stopwatch extends React.Component {
       <div>
         <div className = "time"><Time id="timer" timeElapsed={this.state.timeElapsed} /></div>
         <button onClick={this.toggle} className={this.state.startClass}>{this.state.startClass}</button>
-        <button onClick={this.state.running ? this.lap : this.reset} disabled={!this.state.running && !this.state.timeElapsed} className={this.state.lapClass}>
+        <button onClick={this.state.running ? this.lap : this.reset}
+	    disabled={!this.state.running && !this.state.timeElapsed}
+	    className={this.state.lapClass}>
           {this.state.lapClass}
         </button>
         {this.state.lapTimes.length > 0 && <LapTimes lapTimes={this.state.lapTimes} />}
