@@ -86,7 +86,7 @@ class Time extends React.Component {
   // prepends a zero to single digit numbers
   formatTime(n) {
     if ((n + '').length > 2) {
-	    return n;
+	return n;
     }
     const padding = new Array(2).join('0');
     return (padding + n).slice(-2);
