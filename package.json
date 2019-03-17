@@ -1,7 +1,7 @@
 {
   "name": "stopwatch-challenge-2",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "version": "1.0.0",
+  "description": "A simple Node stopwatch.",
   "main": "server.js",
   "dependencies": {
     "express": "^4.16.3",
@@ -23,7 +23,6 @@
   "license": "MIT",
   "keywords": [
     "node",
-    "glitch",
     "express"
   ]
 }
