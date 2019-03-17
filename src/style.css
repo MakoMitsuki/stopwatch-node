@@ -19,7 +19,7 @@ button {
 }
 
 button:disabled {
-  background-color: grey;
+	background-color: grey;
 }
 
 /* TIME STYLES */
